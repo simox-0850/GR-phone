@@ -1,0 +1,112 @@
+.navigation{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 11px 7%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #004C98;
+    z-index: 10;
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+}
+.borderBottom {
+    border-bottom: 2px solid #000;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .topSpase {
+    margin-top: 120px;
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .topSpase {
+    margin-top: 120px;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .topSpase {
+
+    margin-top: 120px;
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .topSpase {
+    margin-top: 120px;
+
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .topSpase {
+    margin-top: 60px;
+
+  }
+}
+}
+.icon-nav{
+    width: 15px;
+    margin-left: 5px;
+}
+.spanNAV{
+    margin-right: 10px;
+    
+}
+.decoA {
+    text-decoration: none;
+    color: #000;
+}
+.decoA:hover{
+    text-decoration: none;
+    color: #000;
+}
+.tt{
+    text-align: center;
+    margin: 0;
+}
+.FLOATRegiht{
+    text-align: right;
+}
+.IMGWait{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin-right: 160px;
+    padding-right: 50px;
+    display: block;
+}
+/* HTML: <div class="loader"></div> */
+.loader {    
+  --r1: 154%;
+  --r2: 68.5%;
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%; 
+  background:
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+    radial-gradient(var(--r1) var(--r2) at bottom,#269af2 79.5%,#0000 80%),
+    radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+    #ccc;
+  background-size: 50.5% 220%;
+  background-position: -100% 0%,0% 0%,100% 0%;
+  background-repeat:no-repeat;
+  animation: l9 2s infinite linear;
+}
+@keyframes l9 {
+    33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+    66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+    100% {background-position:    0% 100%,100% 100%,200% 100%}
+}

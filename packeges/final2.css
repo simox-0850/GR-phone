@@ -1,0 +1,146 @@
+.body{
+  background-image:url(VISAMASTER.gif);
+  background-size:cover; 
+  opacity: 0.4;
+
+}
+.navigation{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 11px 7%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #004C98;
+    z-index: 10;
+}
+.logo{
+    height: 45px;
+}
+.borderBottom {
+    border-bottom: 2px solid #000;
+}
+.topSpase{
+    margin-top: 5%;
+}
+.elementDIV{
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.ELE_hr{
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+}
+.DIVtableWIDTH{
+    display: flex;
+/*    justify-content: space-between;*/
+    width: 100%;
+    padding: 5px 0px;
+}
+.tableWIDTH{
+    width: 50%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.paragrafTop {
+    margin-bottom: 17px;
+}
+.sizeTitele{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.inputDE{
+    font-size: 15px;
+    border: 1px solid #d3d3d3;
+    padding: 3px;
+    margin-bottom : 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+.btnSEN{
+    width: 100%;
+    margin-top: 15px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+.BTNR{
+    color: #000;
+    padding: 7px 14px;
+    background-color: #fcd205;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+.BTNR:hover{
+    text-decoration: none;
+    background-color: #fcd205;
+    color: #000;
+}
+.f1{
+    margin-bottom: 15px;
+}
+.f2{
+    margin-top: 15px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+
+  .topSpase {
+    margin-top: 70px;
+    background-image:url(BACKGROUNDAPPLE4.gif);
+    background-size:cover; 
+  
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .topSpase {
+    margin-top: 70px;
+    background-image:url(BACKGROUNDAPPLE4.gif);
+    background-size:cover; 
+  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .topSpase {
+    margin-top: 70px;
+    background-image:url(BACKGROUNDAPPLE4.gif);
+    background-size:cover; 
+ 
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .topSpase {
+    margin-top: 70px;
+    background-image:url(BACKGROUNDAPPLE4.gif);
+    background-size:cover; 
+  
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .topSpase {
+    margin-top: 70px;
+    background-image:url(BACKGROUNDAPPLE4.gif);
+    background-size:cover; 
+  }
+}
+.error{
+    font-size: 13px;
+    color: red;
+    margin-bottom: 16px;
+}
